@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 940" fill="none">
+<defs>
+ <linearGradient id="leaf" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#e5ff75"/><stop offset=".22" stop-color="#aaff12"/><stop offset=".53" stop-color="#388f21"/><stop offset=".85" stop-color="#0a3a30"/><stop offset="1" stop-color="#031923"/></linearGradient>
+ <linearGradient id="leaf2" x1="0" y1="0" x2="1" y2=".65"><stop stop-color="#c9ff48"/><stop offset=".4" stop-color="#5bd82c"/><stop offset=".85" stop-color="#063d39"/><stop offset="1" stop-color="#001b22"/></linearGradient>
+ <linearGradient id="ribbon" x1="0" y1="0" x2="1" y2=".7"><stop stop-color="#d9ff74"/><stop offset=".17" stop-color="#89f73e"/><stop offset=".45" stop-color="#0d813f"/><stop offset=".78" stop-color="#043929"/><stop offset="1" stop-color="#0c1522"/></linearGradient>
+ <filter id="halo" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="20"/></filter>
+ <filter id="shadow" x="-60%" y="-60%" width="220%" height="220%"><feDropShadow dx="4" dy="8" stdDeviation="13" flood-color="#76ff1a" flood-opacity=".25"/></filter>
+ <radialGradient id="glow"><stop stop-color="#8aff29" stop-opacity=".5"/><stop offset="1" stop-color="#8aff29" stop-opacity="0"/></radialGradient>
+</defs>
+<ellipse cx="180" cy="390" rx="340" ry="470" fill="url(#glow)" opacity=".55" filter="url(#halo)"/>
+<g filter="url(#shadow)" opacity=".93">
+ <path d="M-112 85C45-16 251 8 426 100C231 92 195 158 57 255C-49 297-112 257-112 85Z" fill="url(#leaf2)"/>
+ <path d="M-96 110C132 56 279 74 416 102C196 115 101 228-95 202" stroke="#dbff7b" stroke-opacity=".65" stroke-width="3"/>
+ <path d="M-150 260C18 172 201 229 335 358C198 299 112 395-48 533C-122 579-161 436-150 260Z" fill="url(#leaf)"/>
+ <path d="M-99 311C35 242 205 304 331 358C134 341 55 438-102 486" stroke="#f0ff9a" stroke-opacity=".63" stroke-width="2"/>
+ <path d="M-126 493C61 396 174 469 277 619C122 566 16 655-80 820C-145 711-148 581-126 493Z" fill="url(#ribbon)"/>
+ <path d="M-115 546C20 462 154 512 272 616C89 582 9 690-94 767" stroke="#c7ff7a" stroke-opacity=".6" stroke-width="3"/>
+ <path d="M-164 757C83 606 247 684 397 894C198 791 124 881-33 987L-164 757Z" fill="url(#leaf2)"/>
+ <path d="M-80 794C92 686 226 773 382 893" stroke="#cdff75" stroke-opacity=".48" stroke-width="3"/>
+ <path d="M-132 52C35-6 117 34 171 89C61 121-4 164-118 203Z" fill="url(#leaf)" opacity=".65"/>
+</g>
+<g opacity=".65"><circle cx="224" cy="222" r="6" fill="#b8ff10"/><circle cx="345" cy="387" r="4" fill="#b8ff10"/><circle cx="253" cy="657" r="6" fill="#b8ff10"/></g>
+</svg>

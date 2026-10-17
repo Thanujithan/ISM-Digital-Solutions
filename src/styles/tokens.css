@@ -1,0 +1,37 @@
+
+/* =====================================
+   ISM DIGITAL SOLUTIONS
+   GLOBAL DESIGN TOKENS
+===================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+:root {
+
+  /* BRAND COLORS */
+  --brand-primary: #0A1A2B;
+  --brand-dark: #06141D;
+  --brand-navy: #0F2A44;
+  --brand-charcoal: #111827;
+
+  /* ACCENT COLORS */
+  --brand-lime: #B8FF00;
+  --brand-green: #7CFF3D;
+
+  /* TEXT COLORS */
+  --brand-white: #FFFFFF;
+  --brand-muted: #E5E7EB;
+
+  /* GLASS EFFECT */
+  --glass-bg: rgba(255, 255, 255, 0.08);
+  --glass-border: rgba(184, 255, 0, 0.25);
+  --glass-blur: 18px;
+
+  /* BORDER RADIUS */
+  --radius-card: 18px;
+  --radius-button: 10px;
+
+  /* TYPOGRAPHY */
+  --font-main: 'Poppins', sans-serif;
+
+}
